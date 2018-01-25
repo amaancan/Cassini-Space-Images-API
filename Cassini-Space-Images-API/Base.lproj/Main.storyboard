@@ -20,18 +20,7 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P4h-xk-ekA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="812" image="sunlitFieldFrance" translatesAutoresizingMaskIntoConstraints="NO" id="Y0G-DY-5ya">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="Y0G-DY-5ya" firstAttribute="top" secondItem="P4h-xk-ekA" secondAttribute="top" id="8gC-3n-3GN"/>
-                                    <constraint firstItem="Y0G-DY-5ya" firstAttribute="leading" secondItem="P4h-xk-ekA" secondAttribute="leading" id="EV8-5r-F79"/>
-                                    <constraint firstAttribute="trailing" secondItem="Y0G-DY-5ya" secondAttribute="trailing" id="Ial-ze-dzI"/>
-                                    <constraint firstAttribute="bottom" secondItem="Y0G-DY-5ya" secondAttribute="bottom" id="nkz-t3-Jfy"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,7 +33,7 @@
                         <viewLayoutGuide key="safeArea" id="Ne0-Bh-7Zw"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="Y0G-DY-5ya" id="J0M-W6-wAd"/>
+                        <outlet property="scrollView" destination="P4h-xk-ekA" id="dbY-TV-bxT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xhf-SC-IY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -52,7 +41,4 @@
             <point key="canvasLocation" x="108" y="120.44334975369459"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="sunlitFieldFrance" width="4946" height="3244"/>
-    </resources>
 </document>
